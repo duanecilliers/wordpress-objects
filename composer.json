@@ -1,13 +1,25 @@
 {
-  "name": "humanmade/wordpress_objects",
+  "name": "duanecilliers/wordpress-objects",
+  "type": "library",
   "description": "Some classes for WordPress to have real OO objects for WordPress data types",
-  "minimum-stability": "dev",
+  "keywords": ["wordpress", "OOP", "objects", "helper"],
+  "homepage": "https://github.com/duanecilliers/wordpress-objects",
   "license": "GPL-3.0",
   "version": "0.1.0",
+  "require": {
+    "php": ">=5.3"
+  },
+  "psr-4": {
+    "Duanec\\": "src/"
+  },
   "authors": [
     {
       "name": "Human Made Limited",
       "email": "hello@hmn.md"
+    },
+    {
+      "name": "Duane Cilliers",
+      "email": "hello@duane.co.za"
     }
   ]
 }

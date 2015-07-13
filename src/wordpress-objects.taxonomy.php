@@ -1,5 +1,7 @@
 <?php
 
+namespace Duanec;
+
 class Taxonomy {
 
 	protected $_tax;

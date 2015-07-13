@@ -1,9 +1,11 @@
 <?php
 
+namespace Duanec;
+
 class Post {
 
 	public $_post;
-	
+
 	protected static $posts;
 
 	/**

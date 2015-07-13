@@ -1,5 +1,7 @@
 <?php
 
+namespace Duanec;
+
 class User {
 
 	protected static $_current_user;
@@ -28,7 +30,7 @@ class User {
 		}
 
 		return static::$users[$id];
-	} 
+	}
 
 	/**
 	 * @param int $user_id
