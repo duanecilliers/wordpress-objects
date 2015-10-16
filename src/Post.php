@@ -411,4 +411,12 @@ class Post {
 		return has_term( $term->get_slug(), $term->get_taxonomy(), $this->get_id() );
 	}
 
+	public function get_field( $key ) {
+		if ( function_exists('\\get_field') ) {
+			return \get_field( $key, $this->get_id() );
+		} else {
+			throw new Exception('Advanced Custom Fields plugin not installed');
+		}
+	}
+
 }
