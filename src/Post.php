@@ -8,6 +8,8 @@ class Post {
 
 	protected static $posts;
 
+	protected static $post_type = 'post';
+
 	/**
 	 * @param int $post_id
 	 * @throws Exception
