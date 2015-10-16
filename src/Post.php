@@ -414,3 +414,11 @@ class Post {
 	}
 
 }
+
+class Page extends Post {
+	protected static $post_type = 'page';
+}
+
+class Attachment extends Post {
+	protected static $post_type = 'attachment';
+}
