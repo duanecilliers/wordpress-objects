@@ -6,6 +6,8 @@ class Post {
 
 	public $_post;
 
+	public static $post_type = 'post';
+
 	protected static $posts;
 
 	/**
